@@ -1,4 +1,4 @@
-======== Definition IDOR (Insecure Direct Object Reference) ==============
+# TP_SECURITER_IDOR_PATH
 
 L’attaque par Référence directe non sécurisée à un objet (IDOR pour
 Insecure Dircet Object Reference) : est une menace sérieuse qui cible souvent
@@ -13,7 +13,7 @@ Ainsi, dans notre TP nous avions créés une mini-applications web
 de commande des produits informatiques. Les clients ont la possibilité de créer
 un compte en fournissant leurs nom prénom Gmail et en créant un mot de passe.
 
-========= Explication de test de simulation de l'attaque avec burpesuite ========
+## Explication de test de simulation de l'attaque avec burpesuite 
 
 Concernant notre attaque, nous avons exploité une vulnérabilité liée à la suppression
 et à la modification de produits au niveau des comptes clients. Pour ce faire, nous
@@ -30,7 +30,7 @@ propres produits. Cette manipulation permet à l'attaquant de contourner les con
 d'effectuer des actions malveillantes au nom d'un autre utilisateur, mettant en
 évidence la gravité de la vulnérabilité exploitée.
 
-========= Conclusion =====================
+## Conclusion
 
 En conclusion, l'utilisation de BurpSuite dans le cadre de notre simulation d'attaque
 a permis de mettre en lumière une vulnérabilité significative au niveau de la gestion
