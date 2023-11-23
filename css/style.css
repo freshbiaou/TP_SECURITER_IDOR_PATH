@@ -1,0 +1,50 @@
+body,html { margin: 0px; padding: 0px;overflow-x: hidden!important;  background: #EEE0E5;}
+
+.bar-menu{height: 40px;  background-color: #006400; padding: 1% 2%;}
+.bar-menu h3{ margin: 0.5% ; color : white ;   font-size: 1.2em;  }
+
+.d-flex {display: flex; }
+.b-flex {display: block;}
+.d-flex * {align-self: center;}
+.justify-content-between {justify-content: space-between;}
+.color-white{color: white;}
+.btn {padding: 10px 30px; outline: none; box-shadow: 1px 2px 3px #006400; text-decoration: none; transition: all ease-in-out .2s;}
+.btn:hover {background-color: black!important;}
+.bg-success {background-color: #006400; color: white; border-radius: 5px;font-size: 1.2em; font-weight: bold;}
+.bg-danger {background-color: red;color: white;border-radius: 5px; font-size: 1em; font-weight: bold;}
+.bg-info {background-color: blue; color: white; border-radius: 5px;font-size: 1em; font-weight: bold;}
+.footer-update {margin-top:8%; position: fixed; width : 100%; bottom: 0; color: #7bdf7b;}
+h4{font-family: 'Times New Roman', Times, serif; font-size: 1em;color: black; background-color: #EBECE4; width:100%; height: 40px; margin: 0; padding-left: 2%;}
+
+.formulaire{ position: relative; font-size: 16px; font-family: 'Times New Roman', Times, serif; background-color: #FCFCFC ;
+    width : 30%;  padding : 10px; margin: 5% auto; text-align: center; border: 5px solid #FCFCFC; border-radius: 25px;}
+.formulaire input:not(input[type = 'checkbox']), .formulaire select{ display: block; width: 100%; padding: 8px 2px; margin : 20px auto;
+    border-radius: 10px; border: groove 2px white;font-size: 16px;font-family: 'Times New Roman', Times, serif;}
+.formulaire h2{font-size: 2em; text-transform: uppercase; color: #006400;}
+textarea { display: block; width: 100%; height: 5%; padding: 8px 2px; margin : 20px auto; border-radius: 10px; border: groove 2px white; font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;}
+.name-user  {
+    font-size: 1.5em;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200px;
+    color :white ;
+    
+}
+table { border-collapse: collapse; width: 100%;}
+
+th, td { border: 1px solid #ddd; padding: 8px; text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 1em;}
+      
+th { background-color: #f2f2f2; font-size: 1em;}
+      
+tr:hover {background-color: white;} 
+.commande { font-family: 'Times New Roman', Times, serif; color: white; outline:none }
+.font-tchat {background-color: #e7e0e0; color: rgb(41, 4, 4);}
+.tab{padding-left: 2%; padding-right: 2%; margin: 5% auto; }
+.mx-2 {margin: 5px;}
+.text-decoration-none {text-decoration: none; color: white;}
+.mx-3 { margin: 3% auto;padding-left: 2%; padding-right: 2%;}
+.mx-4 { margin: 2% auto;padding-left: 8%; padding-right: 8%;}
+.p-2 span{background-color: rgb(45, 202, 14); border: solid;}
+
+
+
